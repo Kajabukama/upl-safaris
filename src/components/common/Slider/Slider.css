@@ -1,0 +1,27 @@
+.slider-container{
+   margin-top: -10px;
+   background: transparent;
+}
+.carousel-item{
+   height: 700px;
+}
+.search-form {
+   position: relative;
+   bottom: 0;
+   left: 0;
+   height: auto;
+   padding-top: 13px;
+   padding-bottom: 8px;
+   background: rgba(0, 0, 0, 0.8);
+}
+.carousel-indicators{
+   background: transparent;
+}
+.search-form h2{
+   color: #FFF;
+   font-family: 'Melior'
+}
+.form-control{
+   border-radius: 0 !important;
+   padding: 1.3rem 0.9rem !important;
+}

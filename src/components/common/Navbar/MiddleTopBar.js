@@ -1,0 +1,37 @@
+import React from 'react';
+
+const MiddleTopBar = () => {
+   return (
+      <div className="col-md-12">
+         <div className="middle-top-bar">
+            <div className="row">
+               <div className="col-md-7">
+                  <div className="left-panel">
+                     <img src={logo} width="200" alt="logo" />
+                  </div>
+               </div>
+               <div className="col-md-5  d-none d-md-block">
+                  <div className="right-panel">
+                     <div className="row">
+                        <div className="col-md-6">
+                           <div className="enquire">
+                              <button className="btn btn-block btn-lg btn-primary">Enquire Now</button>
+                           </div>
+                        </div>
+                        <div className="col-md-6">
+                           <div className="open-hours">
+                              <div className="call">01737 887106</div>
+                              <div className="open">Open today, 8am - 6pm</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   )
+}
+
+export default MiddleTopBar;
+const logo =  require('../../../assets/imgs/logo-large.svg');
