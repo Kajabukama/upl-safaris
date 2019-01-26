@@ -3,7 +3,7 @@
    background: transparent;
 }
 .carousel-item{
-   height: 700px;
+   height: 600px;
 }
 .search-form {
    position: relative;
@@ -14,9 +14,7 @@
    padding-bottom: 8px;
    background: rgba(0, 0, 0, 0.8);
 }
-.carousel-indicators{
-   background: transparent;
-}
+
 .search-form h2{
    color: #FFF;
    font-family: 'Melior'

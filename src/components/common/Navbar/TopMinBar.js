@@ -5,22 +5,23 @@ const MiniTopBar = () => {
    return (
       <div className="col-md-12">
          <div className="top-min-bar">
-            <ul class="mr-auto">
-               <li class="nav-item">
-                  <Link class="nav-link" to="#">
+            <ul className="mr-auto">
+               <li className="nav-item">
+                  <Link className="nav-link" to="#">
                      <span> <img src={ logo } width="15" alt="logo" /> </span> School Trips
                   </Link>
                </li>
-               <li class="nav-item">
-                  <Link class="nav-link" to="#">Sign-up to our Email</Link>
+               <li className="nav-item">
+                  <Link className="nav-link" to="#">Sign-up to our Email</Link>
                </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <li className="nav-item dropdown">
+                  <div className="btn-lang dropdown-toggle" to="#" id="b22" data-toggle="dropdown">
                      Currency
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <Link class="dropdown-item" to="#">United Kingdom</Link>
-                     <Link class="dropdown-item" to="#">USA</Link>
+                     <i class="material-icons">chevron_right</i>
+                  </div>
+                  <div className="dropdown-menu" aria-labelledby="b22">
+                     <Link className="dropdown-item" to="#">United Kingdom</Link>
+                     <Link className="dropdown-item" to="#">USA</Link>
                   </div>
                </li>
 

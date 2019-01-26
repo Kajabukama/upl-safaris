@@ -9,7 +9,7 @@ class Navbar extends Component {
 
    render() {
       return (
-         <div className="">
+         <div className="nav-wrapper">
             <div className="top-menu-container">
                <div className="container">
                   <div className="row">
@@ -18,7 +18,7 @@ class Navbar extends Component {
                   </div>
                </div>
             </div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-white">
+            <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-white">
                <div className="container">
                   {/* <Link className="navbar-brand" to="#">UPL - Safaris</Link> */}
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

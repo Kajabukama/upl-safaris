@@ -1,3 +1,30 @@
+.nav-wrapper{
+   /* border-top: 3px solid #ce8129; */
+   padding-top: 5px;
+}
+.navbar{
+   padding: 0 !important;
+}
+
+.navbar-nav .nav-item{
+   color: #333 !important;
+   font-weight: 600;
+   font-size: 15px;
+   padding: 0px !important;
+}
+
+.navbar-nav .nav-item .nav-link{
+   color: #333 !important;
+   padding: 0px !important;
+   padding-top: 1rem !important;
+   padding-bottom: 1.5rem !important;
+   margin-right: 5em;
+   border-top: 5px solid transparent;
+}
+.navbar-nav .nav-item .nav-link:hover{
+   color: #333 !important;
+   border-top: 5px solid #ce8129
+}
 .top-menu-container{
    height: auto;
 }
@@ -18,7 +45,8 @@
    font-weight: bold;
 }
 .top-min-bar ul li:last-child{
-   /* border-left: 1px solid rgb(114, 221, 82); */
+   border-left: 1px solid #ce8129;
+   margin-right: 10px;
 }
 
 .top-min-bar a {
@@ -39,17 +67,7 @@
 .middle-top-bar .right-panel{
    text-align: right;
 }
-.btn {
-   border-radius: 0 !important;
-}
-.btn-primary {
-   background: #72473c;
-   border: 1px solid #72473c;
-}
-.btn-primary:hover {
-   background: #ce8129;
-   border: 1px solid #ce8129;
-}
+
 
 .open-hours{
    font-family: 'Noto Serif';
@@ -62,28 +80,33 @@
 }
 .open-hours .open{
    margin-top: -5px;
-   font-size: 13px;
+   font-size: 14px;
    font-family: 'Open Sans';
 }
+
 .container-fluid {
    padding: 0px !important;
 }
-.navbar-nav .nav-item{
-   color: #333 !important;
-   font-weight: 600;
-   font-size: 14px;
-   /* padding: 0px !important; */
+
+
+.dropdown-menu{
+   border-radius: 0px !important;
+}
+.dropdown-toggle::after {
+   display: none;
+}
+.material-icons {
+   vertical-align: middle;
+}
+.btn-lang{
+   padding-left: 1rem;
 }
 
-.navbar-nav .nav-item .nav-link{
-   color: #333 !important;
-   padding: 0px !important;
-   padding-top: 6px !important;
-   padding-bottom: 12px !important;
-   margin-right: 5em;
-   border-bottom: 5px solid transparent;
+i{
+   margin-left: 10px;
+   color: #ce8129;
 }
-.navbar-nav .nav-item .nav-link:hover{
-   color: #333 !important;
-   border-bottom: 3px solid #ce8129;
+.icon{
+   color: white;
+   font-size: 2.5rem;
 }
