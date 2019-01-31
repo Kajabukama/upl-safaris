@@ -24,3 +24,13 @@
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
+
+.customer-rate{
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  font-size: 16px;
+  padding: 1rem 0.5rem 0.4rem 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}

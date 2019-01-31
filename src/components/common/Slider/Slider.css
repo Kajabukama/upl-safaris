@@ -23,3 +23,12 @@
    border-radius: 0 !important;
    padding: 1.3rem 0.9rem !important;
 }
+.carousel-indicators li {
+   width: 15px;
+   height: 15px;
+   margin-right: 5px;
+   border-radius: 100%;
+ }
+ .carousel-caption{
+    
+ }

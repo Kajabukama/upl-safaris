@@ -17,6 +17,10 @@ class HomeSlider extends Component {
                <div className="carousel-inner">
                   <div className="carousel-item active">
                      <img src={slider01} className="d-block w-100" alt="" />
+                     <div class="carousel-caption">
+                        <h5>Second slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                     </div>
                   </div>
                   <div className="carousel-item">
                      <img src={slider02} className="d-block w-100" alt="" />

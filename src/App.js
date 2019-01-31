@@ -8,9 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <Navbar/>
-        <HomeSlider/>
-        <Routes/>
+          <Navbar/>
+          <HomeSlider/>
+          <Routes/>
       </div>
     );
   }
