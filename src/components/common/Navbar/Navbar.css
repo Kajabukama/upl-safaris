@@ -121,10 +121,12 @@ i{
 }
 .dropdown-menu{
    width: 100% !important;
-   background: #fff !important;
+   background: rgba(255, 255, 255, 0.726) !important;
    margin-top: 0px;
    border: 1px solid transparent !important;
-   border-top: 1px solid #ce81292a !important;
+   border-top: 1px solid #ce81296c !important;
+   border-bottom: 1px solid #ce81296c !important;
+
 }
 .dropdown-item{
    background: transparent;
@@ -150,12 +152,15 @@ i{
 
 .menu-large {
    position: static !important;
+   
 }
 
 .megamenu {
-   padding: 1rem 20px;
+   padding: 1rem 20px 4rem 20px;
    width: 100%;
-   background: rgba(255,255,255,0.12);
+   /* background: rgba(255,255,255,0.12); */
+   background: transparent;
+
 }
 
 .megamenu > div > li > ul {

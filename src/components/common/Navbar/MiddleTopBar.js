@@ -17,7 +17,7 @@ const MiddleTopBar = () => {
                            <div className="enquire">
                               <button className="btn btn-block btn-lg btn-primary">
                                  Enquire Now
-                                 <i class="material-icons icon">chevron_right</i>
+                                 <i className="material-icons icon">chevron_right</i>
                               </button>
                            </div>
                         </div>
@@ -26,7 +26,7 @@ const MiddleTopBar = () => {
                               <div className="call">+255 767-266-134</div>
                               <div className="open">
                                  Open today, 8am - 6pm
-                                 <i class="material-icons">expand_more</i>
+                                 <i className="material-icons">expand_more</i>
                               </div>
                            </div>
                         </div>

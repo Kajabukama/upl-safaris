@@ -17,7 +17,7 @@ const MiniTopBar = () => {
                <li className="nav-item dropdown">
                   <div className="btn-lang dropdown-toggle" to="#" id="b22" data-toggle="dropdown">
                      Currency
-                     <i class="material-icons">chevron_right</i>
+                     <i className="material-icons">chevron_right</i>
                   </div>
                   <div className="dropdown-menu" aria-labelledby="b22">
                      <Link className="dropdown-item" to="#">United Kingdom</Link>

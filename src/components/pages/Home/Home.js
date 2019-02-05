@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import Rating from '../../common/Rating/Rating';
+import Footer from '../../common/Footer/Footer';
 
 class HomePage extends Component {
    render() {
@@ -30,11 +31,11 @@ class HomePage extends Component {
                      <div className="col-md-3">
                         <Rating />
                      </div>
-                     <div className="col-md-4"><p class="c-feefo__avg"><b>Average score 4.8/5</b> Based on 124 Reviews</p></div>
+                     <div className="col-md-4"><p className="c-feefo__avg"><b>Average score 4.8/5</b> Based on 124 Reviews</p></div>
                   </div>
                </div>
             </div>
-
+            <Footer/>
          </div>
       )
    }
