@@ -1,14 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.container{
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
+
 .btn {
   border-radius: 0 !important;
 }
@@ -22,6 +19,7 @@ body {
   border: 1px solid #72473c;
 }
 .btn{
+  background: #ce8129;
   font-weight: 600 !important;
 }
 .btn:focus,.btn:active {
@@ -32,7 +30,14 @@ body {
 .btn:active, 
 .form-control:focus, 
 .form-control:active {
-  /* outline: none !important; */
   box-shadow: none !important;
-  border: 1px solid #fff !important;
+  border: 1px solid transparent !important;
+} 
+.form-control:focus, 
+.form-control:active {
+  box-shadow: none !important;
+  border: 1px solid #ce8129 !important;
+}
+.form-control{
+  padding: 5rem 2rem !important;
 }

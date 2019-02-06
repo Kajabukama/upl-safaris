@@ -8,15 +8,13 @@ const MegaAbout = () => {
             About Us 
             <i className="material-icons">expand_more</i>
          </Link>
-         <ul className="dropdown-menu fadeIn">
+         <ul className="dropdown-menu">
             <div className="container megamenu">
                <div className="row">
-                  
                   <li className="col-md-6 dropdown-item">
                      <ul>
                         <li>
                         <img className="img-fluid avatar" src={ img_header } alt="" width="300"/>
-                           
                         </li>
                      </ul>
                   </li>

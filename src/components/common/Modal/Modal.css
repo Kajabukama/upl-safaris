@@ -1,0 +1,31 @@
+.signup{
+   position: fixed;
+   width: 135px;
+   height: 135px;
+   border-radius: 100%;
+   background-color: #e7e7e7;
+   z-index: 9999;
+   text-align: center;
+   padding-top: 80px;
+   padding-bottom: 0px;
+   font-size: 13px;
+   margin-top: -80px;
+   margin-left: 10px;
+}
+.modal-body {
+   font-family: "Roboto";
+   border: none !important;
+   padding: 1rem 3rem 2rem 1rem;
+}
+.modal-xl{
+   width: 960px !important;
+}
+.modal-content  {
+   -webkit-border-radius: 0px !important;
+   -moz-border-radius: 0px !important;
+   border-radius: 0px !important; 
+   border: none !important;
+}
+.modal-header{
+   border: none !important;
+}

@@ -59,7 +59,7 @@
 }
 
 .middle-top-bar {
-   padding: 20px 0px;
+   padding: 10px 0px;
    border-bottom: 0.6px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -121,7 +121,7 @@ i{
 }
 .dropdown-menu{
    width: 100% !important;
-   background: rgba(255, 255, 255, 0.726) !important;
+   background: rgba(255, 255, 255, 0.95) !important;
    margin-top: 0px;
    border: 1px solid transparent !important;
    border-top: 1px solid #ce81296c !important;
@@ -242,4 +242,16 @@ i{
    pointer-events: auto;
    opacity: 1;
 }
- 
+.carousel-caption {
+   transform: translateY(-50%);
+   bottom: 0;
+   top: 50%;
+   font-family: 'Roboto Slab';
+ }
+ .carousel-caption h5{
+   font-size: 4em;
+   font-weight: 100 !important;
+ }
+ .carousel-caption p{
+   font-size: 4em;
+ }

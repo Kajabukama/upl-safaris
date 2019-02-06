@@ -16,20 +16,32 @@ class HomeSlider extends Component {
                </ol>
                <div className="carousel-inner">
                   <div className="carousel-item active">
-                     <img src={slider01} className="d-block w-100" alt="" />
-                     {/* <div class="carousel-caption">
-                        <h5>Second slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                     </div> */}
+                     <img src={slider01} className="d-block w-100 img-fluid" alt="" />
+                     <div className="carousel-caption">
+                        <h5>Welcome to</h5>
+                        <p>UPL Safaris - Tell The World Why I love Tanzania</p>
+                     </div>
                   </div>
                   <div className="carousel-item">
-                     <img src={slider02} className="d-block w-100" alt="" />
+                     <img src={slider02} className="d-block w-100 img-fluid" alt="" />
+                     <div className="carousel-caption">
+                        <h5>The Serengeti</h5>
+                        <p>Northern Circuit - A home to the most Diverse Ecosystem</p>
+                     </div>
                   </div>
                   <div className="carousel-item">
-                     <img src={slider03} className="d-block w-100" alt="" />
+                     <img src={slider03} className="d-block w-100 img-fluid" alt="" />
+                     <div className="carousel-caption">
+                        <h5>Amazing Beaches</h5>
+                        <p>Zanzibar Island - A mixture of people culture and Sea life</p>
+                     </div>
                   </div>
                   <div className="carousel-item">
-                     <img src={slider04} className="d-block w-100" alt="" />
+                     <img src={slider04} className="d-block w-100 img-fluid" alt="" />
+                     <div className="carousel-caption">
+                        <h5>Explore Culture</h5>
+                        <p>Maasai - A land of Cultures, People and Amazing Sceneries</p>
+                     </div>
                   </div>
                </div>
                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
